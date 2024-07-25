@@ -1,0 +1,60 @@
+*{
+  width: 500px;
+  height: 500px;
+}
+
+.components{
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  border-color: black;
+  border-width: 6px;
+  width: 25rem;
+  height: 2rem;
+}
+
+button{
+  width: 26rem;
+  height: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: right;
+  height: 65px;
+  width: 100%;
+  background: #003049;
+  color: white;
+  padding: 6px;
+}
+
+.header--img {
+  height: 100%;
+  width: 30%;
+  margin-right: 6px;
+}
+
+.header--title {
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 15rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.data--element{
+  margin-top: 6px;
+}

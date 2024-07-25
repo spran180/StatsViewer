@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Textension",
+  "version": "1.0.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "background"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
